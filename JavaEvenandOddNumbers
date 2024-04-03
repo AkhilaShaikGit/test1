@@ -3,9 +3,8 @@ class EvenAndOdd{
   public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
     int a= scan.nextInt();
-    if(a%2 ==0){
-      System.out.println("It is even number");
-    }else{
-      System.out.println("It is odd number");
+    String result = (a%2 ==0)? "It is even number": "It is odd number";
+      System.out.println(result);
+  
     }
 }
